@@ -1,2 +1,2 @@
-def rectangle_area(x, y):
+def rectangle_area(x):
   return x*x
