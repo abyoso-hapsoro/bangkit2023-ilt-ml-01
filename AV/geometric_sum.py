@@ -11,8 +11,7 @@ def geometric_sum(a, r, n):
     The sum of a + a*r + ... + a*r**(n-1).
   """
 
-  total, ratio = a, r
-  for _ in range(1, n):
-    total += a*ratio
-    ratio *= r
-  return total
+  ratio, terms, first_term = r, n, a
+  if ratio != 1:
+    return (first_term(1-ratio**terms))/(1-ratio)
+  return first_term*terms
