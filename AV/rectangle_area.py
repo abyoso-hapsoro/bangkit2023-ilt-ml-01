@@ -1,2 +1,2 @@
-def rectangle_area(x, y):
-  return x*x
+def rectangle_area(length, width):
+    return length * width
