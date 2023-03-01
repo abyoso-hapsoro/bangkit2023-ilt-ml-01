@@ -1,4 +1,4 @@
 from math import pi
 
-def circel_area(x):
+def circle_area(x):
   return pi*x**2
